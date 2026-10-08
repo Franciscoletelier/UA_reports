@@ -10,6 +10,37 @@ lang: es-CL
 toc-title: "Índice"
 ---
 
+```{=latex}
+\begin{titlepage}
+\thispagestyle{empty}
+\noindent
+\includegraphics[width=0.62\textwidth]{images/f-economicas.pdf}
+
+\vspace{3.2cm}
+
+\begin{center}
+{\large\color{uablue}\MakeUppercase{{{< meta program >}}}}\\[1.2cm]
+{\Huge\bfseries\color{uablue} {{< meta title >}}}\\[0.6cm]
+{\Large {{< meta subtitle >}}}\\[0.8cm]
+{\color{uayellow}\rule{0.22\textwidth}{3pt}}
+\end{center}
+
+\vfill
+
+\begin{flushright}
+\begin{tabular}{@{}rl@{}}
+\textbf{Autor:} & {{< meta author >}} \\
+\textbf{Asignatura:} & {{< meta course >}} \\
+\textbf{Profesor:} & {{< meta professor >}} \\
+\textbf{Fecha:} & \today
+\end{tabular}
+\end{flushright}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+```
+
 <!-- Cada sección es un encabezado de nivel 1 (#). Escribe el contenido debajo. -->
 
 # Introducción

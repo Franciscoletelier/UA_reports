@@ -11,7 +11,7 @@ format:
     latex-auto-install: true
     keep-tex: true
     linestretch: 1.5
-    toc: true
+    toc: false
     toc-depth: 3
     number-sections: true
     colorlinks: true
@@ -32,7 +32,12 @@ format:
           \usepackage{booktabs}
           \usepackage{caption}
           \usepackage{xcolor}
+          \usepackage{graphicx}
           \definecolor{uablue}{HTML}{005682}
+          \definecolor{uayellow}{HTML}{FFD23A}
+          % La portada se escribe en index.qmd, así que se desactiva el título automático.
+          \renewcommand{\maketitle}{}
+          \renewcommand{\contentsname}{Índice}
     linkcolor: uablue
     urlcolor: uablue
     citecolor: uablue
