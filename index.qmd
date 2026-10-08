@@ -19,7 +19,7 @@ toc-title: "Índice"
 \vspace{3.2cm}
 
 \begin{center}
-{\large\color{uablue}\MakeUppercase{{{< meta program >}}}}\\[1.2cm]
+{\large\color{uablue}\MakeUppercase{ {{< meta program >}} }}\\[1.2cm]
 {\Huge\bfseries\color{uablue} {{< meta title >}}}\\[0.6cm]
 {\Large {{< meta subtitle >}}}\\[0.8cm]
 {\color{uayellow}\rule{0.22\textwidth}{3pt}}
@@ -37,6 +37,7 @@ toc-title: "Índice"
 \end{flushright}
 \end{titlepage}
 
+\renewcommand*\contentsname{Índice}
 \tableofcontents
 \newpage
 ```
