@@ -33,6 +33,9 @@ format:
           \usepackage{caption}
           \usepackage{xcolor}
           \usepackage{graphicx}
+          \usepackage{titlesec}
+          % Títulos de sección sin la palabra «Capítulo»: se muestra «1 Introducción».
+          \titleformat{\chapter}[hang]{\normalfont\Huge\bfseries}{\thechapter}{0.75em}{}
           \definecolor{uablue}{HTML}{005682}
           \definecolor{uayellow}{HTML}{FFD23A}
           % La portada se escribe en index.qmd, así que se desactiva el título automático.
