@@ -1,0 +1,47 @@
+project:
+  type: default
+  output-dir: _output
+
+format:
+  pdf:
+    documentclass: report
+    papersize: letter
+    fontsize: 11pt
+    pdf-engine: xelatex
+    latex-auto-install: true
+    keep-tex: true
+    linestretch: 1.5
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    colorlinks: true
+    fig-width: 6
+    fig-height: 4
+    fig-dpi: 150
+    fig-pos: "H"
+    fig-cap-location: bottom
+    tbl-cap-location: bottom
+    geometry:
+      - top=2.5cm
+      - bottom=2.5cm
+      - left=2.5cm
+      - right=2.5cm
+    include-in-header:
+      - text: |
+          \usepackage{float}
+          \usepackage{booktabs}
+          \usepackage{caption}
+          \usepackage{xcolor}
+          \definecolor{uablue}{HTML}{005682}
+    linkcolor: uablue
+    urlcolor: uablue
+    citecolor: uablue
+
+bibliography: references.bib
+csl: apa.csl
+
+execute:
+  echo: false
+  output: true
+  message: false
+  warning: false

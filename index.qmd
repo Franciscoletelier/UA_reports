@@ -1,0 +1,37 @@
+---
+title: "Título del trabajo"
+subtitle: "Subtítulo opcional"
+author: "Nombre Apellido"
+professor: "Nombre del profesor"
+course: "Nombre de la asignatura"
+program: "Máster en Economía Aplicada"
+date: today
+lang: es-CL
+toc-title: "Índice"
+---
+
+<!-- Cada sección es un encabezado de nivel 1 (#). Escribe el contenido debajo. -->
+
+# Introducción
+
+<!-- Contexto del problema, pregunta de investigación y aporte del trabajo. -->
+
+# Marco teórico
+
+<!-- Qué dice la teoría y los estudios previos. Cita así: [@ejemplo2020]. -->
+
+# Datos y metodología
+
+<!-- Fuentes de datos, variables y técnica empírica utilizada. -->
+
+# Resultados
+
+<!-- Tablas y figuras con su interpretación. -->
+
+# Conclusiones
+
+<!-- Respuesta a la pregunta de investigación y limitaciones. -->
+
+# Referencias
+
+<!-- Quarto genera esta sección automáticamente a partir de references.bib. -->

@@ -1,0 +1,11 @@
+# Archivos generados por Quarto
+_output/
+.quarto/
+*_files/
+*.tex
+*.log
+*.aux
+*.out
+*.toc
+.Rhistory
+.Rproj.user/
